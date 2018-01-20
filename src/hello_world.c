@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : hello_world_git.c
+ Name        : hello_world.c
  Author      : ivanovski
  Version     :
  Copyright   : Your copyright notice
@@ -12,6 +12,6 @@
 #include <stdlib.h>
 
 int main(void) {
-	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	printf("!!!Hello World!!!"); /* prints !!!Hello World!!! */
 	return EXIT_SUCCESS;
 }
