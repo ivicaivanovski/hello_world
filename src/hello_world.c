@@ -12,7 +12,12 @@
 #include <stdlib.h>
 #include <hworld.h>
 
-int main(void) {
+static void lPrint(void)
+{
 	printf("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+}
+
+int main(void) {
+	lPrint();
 	return EXIT_SUCCESS;
 }
